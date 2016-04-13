@@ -33,8 +33,9 @@
                     sourceIcon: true
                 },
                 templates: {
-                    group: 'base',
+                    group: 'text',
                     options: {
+                        subtitle_content: Spice.xkcd_display.subtitle;
                         content: Spice.xkcd_display.content,
                         moreAt: true
                     }
